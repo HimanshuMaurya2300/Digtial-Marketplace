@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#root {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}

@@ -1,19 +1,39 @@
-import { Link } from "react-router-dom"
+import ThemeCard from "../components/Card"
+import img from './../../public/img.webp'
 
 const HomePage = () => {
     return (
-        <div className="flex text-2xl w-full h-full justify-center items-center flex-col">
-            <div className="text-red-500">
-                Welcome to the Digital Marketplace
-            </div>
-
-            <div>
-                <Link to="/login">Login</Link>
-            </div>
-
-            <div>
-                <Link to="/signup">Signup</Link>
-            </div>
+        <div className="flex gap-6 fflex-wrap m-10">
+            <ThemeCard
+                image={img}
+                title={"Theme 1"}
+                description={"This is theme 1"}
+                price={"$10"}
+            />
+            <ThemeCard
+                image={img}
+                title={"Theme 1"}
+                description={"This is theme 1"}
+                price={"$10"}
+            />
+            <ThemeCard
+                image={img}
+                title={"Theme 1"}
+                description={"This is theme 1"}
+                price={"$10"}
+            />
+            <ThemeCard
+                image={img}
+                title={"Theme 1"}
+                description={"This is theme 1"}
+                price={"$10"}
+            />
+            <ThemeCard
+                image={img}
+                title={"Theme 1"}
+                description={"This is theme 1"}
+                price={"$10"}
+            />
         </div>
     )
 }
